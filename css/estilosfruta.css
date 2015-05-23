@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+#paginafrutas
+{
+	background:#09C
+}
+#titulo
+{background:#669; color:#9F9}
+
+#pienombre
+{background:#FF3; color:#0C9}
+
+#intro
+{color:#FFF; text-align:justify; background:#066; width:98%; margin:1%}

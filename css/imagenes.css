@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+#imagenes
+{
+	float: left;
+	width: 180px;
+	height: 180px;
+	color: #D6D6D6;
+}

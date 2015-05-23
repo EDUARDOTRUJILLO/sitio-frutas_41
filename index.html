@@ -1,0 +1,878 @@
+﻿<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="jquery-mobile/jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery-mobile/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="css/estilosfruta.css" rel="stylesheet" type="text/css"/>
+<link href="css/imagenes.css" rel="stylesheet" type="text/css">
+<link href="css/frutas.css" rel="stylesheet" type="text/css">
+<link href="css/bayas.css" rel="stylesheet" type="text/css">
+<link href="css/bayas1.css" rel="stylesheet" type="text/css">
+<link href="css/CITRICOS.css" rel="stylesheet" type="text/css">
+<link href="css/CUCU.css" rel="stylesheet" type="text/css">
+<link href="css/EXO.css" rel="stylesheet" type="text/css">
+<link href="css/FRUTA DULCE.css" rel="stylesheet" type="text/css">
+<link href="css/FRUTOS SECOS.css" rel="stylesheet" type="text/css">
+<script src="jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="paginafrutas">
+	<div data-role="header" id="titulo">
+		<h1>Documentacion de las frutas</h1>
+	</div>
+    <div id="intro">
+    Las frutas son, quizás, los alimentos más llamativos por su diversidad de colores y formas. Pero además de lo que muestran a simple vista, forman parte de los alimentos con mayor cantidad de nutrientes y sustancias naturales altamente beneficiosas para la salud.
+Si nos detenemos a pensar, veremos que las frutas y todos los vegetales, sobreviven a la intemperie, enfrentando todo tipo de condiciones y agresiones meteorológicas. 
+Todo ello es posible gracias a las sustancias protectoras y antioxidantes naturales que poseen. En definitiva esas mismas sustancias son las que nos protegen cuando consumimos el alimento. 
+Es decir que nos beneficiamos absolutamente con todas esas vitaminas y nutrientes que la fruta posee. Llenamos de vida todo nuestro organismo.<br>
+<center><img src="imagenes/frutas.jpg" width="100px" height="100px"></center>
+</div>
+	<div data-role="content" class="citricos">	
+		<ul data-role="listview">
+			<li><a href="#page2">Bayas</a></li>
+            <li><a href="#page3">Cítricos</a></li>
+			<li><a href="#page4">Cucurbitáceas</a></li>
+            <li><a href="#page5">Exóticas</a></li>
+            <li><a href="#page6">Fruta dulce</a></li>
+            <li><a href="#page7">Frutos secos</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer" id="pienombre">
+		<h4>Eduardo Trujillo Machorro</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page2">
+	<div data-role="header" id="titulobayas">
+		<h1>Bayas</h1>
+	</div>
+	<div data-role="content">		
+		<ul data-role="listview">
+			<li><a href="#arandano">Arandano</a></li>
+            <li><a href="#frambuesa">Frambuesa</a></li>
+			<li><a href="#fresa">Fresa</a></li>
+            <li><a href="#GE">Grosella espinosa</a></li>
+            <li><a href="#GN">Grosella negra</a></li>
+            <li><a href="#GR">Grosella roja</a></li>
+              <li><a href="#Zarza">Zarzamora</a></li>
+		</ul>			
+	</div>
+	<div data-role="footer" id="piebayas">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="arandano" class="bayasfondo">
+	<div data-role="header" id="titulobayas">
+		<h1>arandano</h1>
+	</div>
+    <div id="imagenes">
+    <img class="frutas" src="imagenes/arandano.jpg">
+    </div>
+	<div data-role="content">	
+		El fruto es una baya auténtica de tamano superior al de las hojas. Es inicialmente blanco, pero se vuelve rojo intenso al madurar. Es comestible, con un sabor ácido que puede enmascarar su dulzor		
+	</div>
+	<div data-role="footer" id="piebayas">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="frambuesa" class="bayasfondo">
+	<div data-role="header" id="titulobayas">
+		<h1>frambuesa</h1>
+	</div>
+    <div id="imagenes">
+    <img class="frutas" src="imagenes/frambuesa.jpg">
+    </div>
+	<div data-role="content">	
+		Su fruto es conocido con el mismo nombre que la planta y consiste en una polidrupa de sabor fuerte y dulce. La frambuesa fructifica a finales de verano o principios de otono. Esta fruta del bosque es parecida a la zarzamora, pero más pequena y blanda		
+	</div>
+	<div data-role="footer" id="piebayas">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="fresa" class="bayasfondo">
+	<div data-role="header" id="titulobayas">
+		<h1>Fresa</h1>
+	</div>
+    <div id="imagenes">
+    <img class="frutas" src="imagenes/fresa.jpg" id="piebayas">
+    </div>
+	<div data-role="content">	
+		La fresa es un fruto de color rojo brillante, suculento y fragante que se obtiene de la planta que recibe su mismo nombre. En Occidente es considerada la "reina de las frutas". Además de poderse comer cruda se puede consumir como compota, mermelada,... Es empleada con fines medicinales ya que posee excelentes propiedades que ayudan a preservar la salud	
+	</div>
+	<div data-role="footer">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="GE" class="bayasfondo">
+	<div data-role="header" id="titulobayas">
+		<h1>Grosella espinosa</h1>
+	</div>
+    <div id="imagenes">
+    <img class="frutas" src="imagenes/grosellaespinoza.jpg" >
+    </div>
+	<div data-role="content">	
+		La grosella espinosa o también denominada agrazón o uva espina (Ribes grossularia o Ribes uva-crispa) es una baya que según la especie puede ser blanca, amarilla, roja o verde, con una piel espinosa, vellosa o suave. Las diferentes variedades se diferencian entre sí por la época de maduración, sabor, color, tamano, forma del fruto y modo de consumo. Predomina el fruto amarillento con piel vellosa, aunque existen también variedades de piel rojiza, verde oscura y verde pálida blancuzca.		
+	</div>
+	<div data-role="footer" id="piebayas">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="GN" class="bayasfondo">
+	<div data-role="header" id="titulobayas">
+		<h1>Grosella negra</h1>
+	</div>
+    <div id="imagenes">
+    <img class="frutas" src="imagenes/grosellanegra.jpg">
+    </div>
+	<div data-role="content">	
+		La grosella negra es una baya de pulpa translúcida con tonos rojos o verdes y de sabor agridulce. El fruto es pequeno, de color azul negro y esférico con un sabor intenso cuando está completamente maduro. Esta baya está recubierta de vello y su pulpa contiene muchas semillas pequenas. Estos frutos no son sueltos sino que crecen en racimos.	
+	</div>
+	<div data-role="footer" id="piebayas">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="GR" class="bayasfondo">
+	<div data-role="header" id="titulobayas">
+		<h1>Grosella roja</h1>
+	</div>
+    <div id="imagenes">
+    <img class="frutas" src="imagenes/grosellaroja.jpg">
+    </div>
+	<div data-role="content">	
+		Las grosellas rojas son unas pequenas frutas redondas de color rojo. Aunque se pueden consumir crudas, su sabor agridulce las hace indicadas para la elaboración de mermeladas, batidos, helados, etc. Son ricas en vitaminas y minerales		
+	</div>
+	<div data-role="footer" id="piebayas">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="Zarza" class="bayasfondo">
+	<div data-role="header" id="titulobayas">
+		<h1>Zarzamora</h1>
+	</div>
+    <div id="imagenes">
+    <img class="frutas" src="imagenes/zarzamora.jpg">
+    </div>
+	<div data-role="content">	
+		La zarzamora es una planta generalmente silvestre de la que se aprovechan sus frutos, unas bayas pequenas de color negro muy aromáticas y algo ácidas. Se consumen crudas, aunque también se emplean en la elaboración de compotas, macedonias, tartas, etc. Son ricas en vitaminas y minerales. Además aportan fibra y contienen pocas calorías.		
+	</div>
+	<div data-role="footer" id="piebayas">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page3" class="citricos">
+	<div data-role="header" class="titulocitricos">
+		<h1>Citricos</h1>
+	</div>
+	<div data-role="content">	
+		<div data-role="content">		
+		<ul data-role="listview">
+			<li><a href="#limon">Limon</a></li>
+            <li><a href="#mandarina">Mandarina</a></li>
+			<li><a href="#naranja">Naranja</a></li>
+            <li><a href="#pomelo">Pomelo</a></li>
+           
+		</ul>			
+	</div>
+    	</div>
+	<div data-role="footer" class="piecitricos">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+		
+        <div data-role="page" id="limon" class="citricos">
+	<div data-role="header" class=" titulocitricos">
+		<h1>Limon</h1>
+	</div>
+    <div id="imagenes">
+    <img class="frutas" src="imagenes/limon.jpg">
+    </div>
+	<div data-role="content">	
+		Su fruto es el limón una fruta comestible de sabor ácido y extremadamente fragante que se usa en la alimentación		
+	</div>
+	<div data-role="footer" class="piecitricos">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="mandarina" class="citricos">
+	<div data-role="header" class="titulocitricos">
+		<h1>Mandarina</h1>
+	</div>
+    <div id="imagenes">
+    <img class="frutas" src="imagenes/mandarina.jpg">
+    </div>
+	<div data-role="content">	
+	La mandarina es un fruto similar a la naranja pero más pequena y achatada por su base. Su corteza es lisa, brillante color rojo anaranjado y es muy fácil de pelar, incluso con las manos. La mandarina se consume principalmente como fruta en fresco, aunque también son conocidos las conservas de gajos de mandarinas.
+
+	
+	</div>
+	<div data-role="footer" class="piecitricos">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="naranja" class="citricos">
+	<div data-role="header" class="titulocitricos">
+		<h1>Naranja</h1>
+	</div>
+    <div id="imagenes">
+    <img class="frutas" src="imagenes/naranja.jpg">
+    </div>
+	<div data-role="content">	
+		La naranja es un fruto redondo, color naranja, consumido mayoritariamente en invierno. La pulpa del interior es también anaranjada y está formada por pequenas bolsitas llenas de zumo.
+
+La naranja se usa para consumo en fresco y, para la industria, principalmente en zumo.		
+	</div>
+	<div data-role="footer" class="piecitricos">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="pomelo" class="citricos">
+	<div data-role="header" class="titulocitricos">
+		<h1>Pomelo</h1>
+	</div>
+    <div id="imagenes">
+    <img class="frutas" src="imagenes/pomelo.jpg">
+    </div>
+	<div data-role="content">	
+		Este fruto pertenece al árbol “citrus paradisi” de la familia de las Rutáceas. Su forma es como la de una naranja, pero de mayor tamano y es de color amarillo como el limón, aunque existen variedades de color verde y rosáceo. 
+Su sabor es algo amargo pero muy agradable al paladar. El pomelo ha sido objeto de innumerables estudios científicos y han quedado demostrados sus efectos protectores y curativos para nuestra salud
+		
+	</div>
+	<div data-role="footer" class="piecitricos">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+        
+
+<div data-role="page" id="page4" class="cucu">
+	<div data-role="header" class="titulocucu">
+		<h1>Cucurbitáceas</h1>
+	</div>
+	<div data-role="content">	
+			<ul data-role="listview">
+			<li><a href="#melon">Melón</a></li>
+            <li><a href="#sandia">Sandía</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer" class="piecucu">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+     <div data-role="page" id="melon" class="cucu">
+	<div data-role="header" class="titulocucu">
+		<h1>Melón</h1>
+	</div>
+    <div id="imagenes">
+    <img class="frutas" src="imagenes/melon.jpg">
+    </div>
+	<div data-role="content">	
+		El melón puede ser redondo o alargado, de corteza amarilla, verde o combinada según la variedad. La pulpa es aromática, jugosa y dulce, resultando una fruta ideal para calmar la sed.		
+	</div>
+	<div data-role="footer" class="piecucu">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+     <div data-role="page" id="sandia" class="cucu">
+	<div data-role="header" class="titulocucu">
+		<h1>Sandía</h1>
+	</div>
+    <div id="imagenes">
+    <img class="frutas" src="imagenes/sandia.jpg">
+    </div>
+	<div data-role="content">	
+		La sandía es un fruto grande y de forma más o menos esférica que suele consumirse cruda como postre. Su pulpa es de color rojizo o amarillento y de sabor dulce. Resulta un alimento muy refrescante que aporta muy pocas calorías al organismo, también aporta algunas vitaminas y minerales.		
+	</div>
+	<div data-role="footer" class="piecucu">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page5" class="exoticas">
+	<div data-role="header" class="tituloexo">
+		<h1>Exóticas</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#agua">Aguacate</a></li>
+            <li><a href="#caram">Carambola</a></li>
+			<li><a href="#coco">Coco</a></li>
+            <li><a href="#chirimoya">Chirimoya</a></li>
+            <li><a href="#datil">Dátil</a></li>
+            <li><a href="#fruta">Fruta de la pasión</a></li>
+            <li><a href="#litchi">litchi</a></li>
+            <li><a href="#mango">mango</a></li>
+             <li><a href="#papaya">Papaya</a></li>
+            <li><a href="#pina">Pina</a></li>
+               <li><a href="#platano">Platano</a></li>
+             
+		</ul>	
+	</div>
+	<div data-role="footer" class="pieexo">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+  <div data-role="page" id="agua" class="exoticas">
+	<div data-role="header" class="tituloexo">
+		<h1>Aguacate</h1>
+	</div>
+    <div id="imagenes">
+    <img class="frutas" src="imagenes/aguacate.jpg">
+    </div>
+	<div data-role="content">	
+		Persea americana es un árbol originario de México, Guatemala , El Salvador y Perú,1 perteneciente a la familia de las lauráceas. Tanto su fruto, comestible, como el árbol, se conocen como aguacate o palta, según la región.	
+	</div>
+	<div data-role="footer" class="pieexo">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+  <div data-role="page" id="caram" class="exoticas">
+	<div data-role="header" class="tituloexo">
+		<h1>Carambola</h1>
+	</div>
+    <div id="imagenes">
+    <img class="frutas" src="imagenes/estrella.jpg">
+    </div>
+	<div data-role="content">	
+		La carambola es una fruta exótica muy cotizada en los mercados internacionales, conocida popularmente como "fruta estrella" o "star fruit".		
+	</div>
+	<div data-role="footer" class="pieexo">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+  <div data-role="page" id="coco" class="exoticas">
+	<div data-role="header" class="tituloexo">
+		<h1>coco</h1>
+	</div>
+     <div id="imagenes">
+    <img class="frutas" src="imagenes/coco.jpg">
+    </div>
+	<div data-role="content">	
+		El coco es un fruto redondo y alargado de carne blanca, fibrosa y aceitosa cubierta por una cáscara dura, de color marrón y peluda. El coco tiene una envuelta fibrosa, una carne blanca dentro que recibe el nombre de copra y, cuando el fruto está aún tierno, un líquido lechoso que se suele usar como alimento básico de algunas zonas.		
+	</div>
+	<div data-role="footer" class="pieexo">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+  <div data-role="page" id="chirimoya" class="exoticas">
+	<div data-role="header" class="tituloexo">
+		<h1>chirimoya</h1>
+	</div>
+     <div id="imagenes">
+    <img class="frutas" src="imagenes/chirimoya.jpg">
+    </div>
+	<div data-role="content">	
+		Es una fruta que pertenece a la familia de las Anonáceas, que consta de unas 800 especies arbóreas de las regiones tropicales, con frutos en baya y carnosos. El género Anona consta de 120 especies de las que unas 20 se cultivan por sus frutos en la América tropical y sur de Europa. Procede del chirimoyo, un árbol que puede alcanzar hasta 8 metros de altura.	
+	</div>
+	<div data-role="footer" class="pieexo">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+
+  <div data-role="page" id="datil" class="exoticas">
+	<div data-role="header" class=" tituloexo">
+		<h1>Datíl</h1>
+	</div>
+     <div id="imagenes">
+    <img class="frutas" src="imagenes/datil.jpg">
+    </div>
+	<div data-role="content">	
+		El dátil es una fruta obtenida de la palmera datilera , alimento básico para países del Magreb. La fruta es considerada edulcorante por su cantidad de azúcar aproximadamente el 70%. Su nombre es derivado de la palabra griega δακτύλος ("daktilos"), que significa "dedo".	
+	</div>
+	<div data-role="footer" class="pieexo">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+
+  <div data-role="page" id="kiwi" class="exoticas">
+	<div data-role="header" class="tituloexo">
+		<h1>Kiwi</h1>
+	</div>
+     <div id="imagenes">
+    <img class="frutas" src="imagenes/kiwi.jpg">
+    </div>
+	<div data-role="content">	
+		El kiwi es un fruto de forma ovoide, de tamano variable y recubierto de una piel fina de color marrón, ligeramente vellosa. Puede tener de 4 a 7,5cm de longitud por 3,5 a 5cm de anchura y el peso varía de 30-150g en función de la variedad, las condiciones climáticas y del sistema de cultivo. La pulpa puede ser de color verde de distinta tonalidad según la variedad, tierna, jugosa y de sabor agridulce. Presenta numerosas y pequenas semillas negras comestibles. El color de la pulpa y el sabor delicado de la misma que recuerda en parte a la uva, a la fresa y a la pina, lo hacen muy agradable.		
+	</div>
+	<div data-role="footer" class="pieexo">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+
+  <div data-role="page" id="fruta" class="exoticas">
+	<div data-role="header" class="tituloexo">
+		<h1>Fruta de la pasión</h1>
+	</div>
+     <div id="imagenes">
+    <img class="frutas" src="imagenes/maracuya.jpg">
+    </div>
+	<div data-role="content">	
+		La fruta de la pasión es una fruta tropical que proviene de diversas especies de plantas del género Passiflora. Se consume por su pulpa, que es jugosa, dulce y algo ácida, con la que además se pueden preparar helados, sorbetes, zumos, etc. Es un alimento rico en vitaminas y minerales. También aporta fibra y es bajo en calorías.		
+	</div>
+	<div data-role="footer" class="pieexo">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+
+  <div data-role="page" id="litchi" class="exoticas">
+	<div data-role="header" class="tituloexo">
+		<h1>litchi</h1>
+	</div>
+     <div id="imagenes">
+    <img class="frutas" src="imagenes/litchi.jpg">
+    </div>
+	<div data-role="content">	
+		La fruta (que en realidad es una falsa fruta, compuesta por una cobertura carnosa llamada arilo) es una drupa que tiene 3-4 centímetros de longitud y unos 3 cm de diámetro. La parte exterior (epicarpio) es de color rojo y fácil de retirar. El mesocarpio (interior) está formado por capas de pulpa blancas, dulces y translúcidas, ricas en vitamina C con una textura similar a la de la uva. En el centro se encuentra la semilla rodeada por un duro endocarpio.		
+	</div>
+	<div data-role="footer" class="pieexo">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+
+  <div data-role="page" id="mango" class="exoticas">
+	<div data-role="header" class="tituloexo">
+		<h1>Mango</h1>
+	</div>
+     <div id="imagenes">
+    <img class="frutas" src="imagenes/mango.jpg">
+    </div>
+	<div data-role="content">	
+		El mango está reconocido como uno de los 3 ó 4 frutos tropicales más finos. Es una fruta que se obtiene del árbol del mismo nombre. 
+
+Tiene forma ovalada, con la piel no comestible y color variable de amarillo pálido a rojo intenso. La pulpa es pegajosa y su coloración también varía, desde amarillo a anaranjado. El sabor del mango maduro es dulce, y bastante ácido cuando aún está verde. Es una fruta jugosa y fibrosa, y poseen un hueso interior. Su tamano varía entre 5-20 cm de longitud, con un peso de 300-400 g, llegando algunas piezas a alcanzar más de un kilo.
+		
+	</div>
+	<div data-role="footer" class="pieexo">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+
+  <div data-role="page" id="papaya" class="exoticas">
+	<div data-role="header" class="tituloexo">
+		<h1>Papaya</h1>
+	</div>
+     <div id="imagenes">
+    <img class="frutas" src="imagenes/papaya.jpg">
+    </div>
+	<div data-role="content">	
+		La papaya es una fruta tropical que se consume por su pulpa principalmente, que suele ser de color anaranjado y de sabor dulce y jugoso. También se aprovechan sus semillas secas. Se puede tomar como fruta fresca, cocida o en diversos preparados como helados, refrescos y jaleas. Es un alimento bajo en calorías y altamente digestivo	
+	</div>
+	<div data-role="footer" class="pieexo">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+
+  <div data-role="page" id="pina" class="exoticas">
+	<div data-role="header" class="tituloexo">
+		<h1>Pina</h1>
+	</div>
+     <div id="imagenes">
+    <img class="frutas" src="imagenes/pina.jpg">
+    </div>
+	<div data-role="content">	
+		La pina madura tiene una fragancia muy singular. Es de hermoso color y agradable sabor agridulce. Se puede comer cruda o como ingrediente en zumos, conservas, licores, etc. Tanto el fruto como las hojas se usan en la preparación de compuestos medicinales.		
+	</div>
+	<div data-role="footer" class="pieexo">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+
+  <div data-role="page" id="platano" class="exoticas">
+	<div data-role="header" class="tituloexo">
+		<h1>Platano</h1>
+	</div>
+     <div id="imagenes">
+    <img class="frutas" src="imagenes/platano.jpg">
+    </div>
+	<div data-role="content">	
+	El plátano o banano es una fruta amarilla, de forma alargada, que encontramos en el mercado en grupos de tres a veinte, de forma similar a un pepino triangular, oblongo y normalmente de color amarillo. Su sabor es más o menos dulce según la variedad.		
+	</div>
+	<div data-role="footer" class="pieexo">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="page6" class="FD">
+	<div data-role="header" class="tituloFD" >
+		<h1>Fruta dulce</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#alba">Albaricoque</a></li>
+            <li><a href="#cereza">Cereza</a></li>
+			<li><a href="#ciruela">Ciruela</a></li>
+            <li><a href="#higo">Higo</a></li>
+            <li><a href="#kaki">Kaki</a></li>
+            <li><a href="#manzana">Manzana</a></li>
+            <li><a href="#melocoton">Melocoton</a></li>
+            <li><a href="#nectarina">Nectarina</a></li>
+             <li><a href="#nispero">Nispero</a></li>
+            <li><a href="#pera">Pera</a></li>
+               <li><a href="#uva">Uva</a></li>
+             
+		</ul>		
+	</div>
+	<div data-role="footer" class="pieFD">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+
+  <div data-role="page" id="alba" class="FD">
+	<div data-role="header" class="tituloFD">
+		<h1>Albaricoque</h1>
+	</div>
+     <div id="imagenes">
+    <img class="frutas" src="imagenes/albaricoque.jpg">
+    </div>
+	<div data-role="content">	
+		El albaricoque es un fruto similar al melocotón pero mucho más pequeno, de color amarillo pálido o anaranjado con alguna sombra roja. La pulpa no es muy jugosa, tiene cierta textura fibrosa y consistencia harinosa cuando el albaricoque está maduro. Se consume principalmente como fruta fresca, aunque también se utiliza para fabricar algunos derivados como compotas, mermeladas, zumos y los famosos ‘orejones’ que no son más que albaricoques secos	
+	</div>
+	<div data-role="footer" class="pieFD">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+
+  <div data-role="page" id="cereza" class="FD">
+	<div data-role="header" class="tituloFD">
+		<h1>Cereza</h1>
+	</div>
+     <div id="imagenes">
+    <img class="frutas" src="imagenes/cereza.jpg">
+    </div>
+	<div data-role="content">	
+		La cereza es un fruto que puede consumirse fresco o utilizarse en la elaboración de tartas, mousses, mermeladas y compotas. Generalmente las cerezas de mayor tamano son las que tienen mejor textura y sabor.		
+	</div>
+	<div data-role="footer" class="pieFD">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+
+  <div data-role="page" id="ciruela" class="FD">
+	<div data-role="header" class="tituloFD">
+		<h1>Ciruela</h1>
+	</div>
+     <div id="imagenes">
+    <img class="frutas" src="imagenes/ciruela.jpg">
+    </div>
+	<div data-role="content">	
+		La ciruela es una fruta de hueso, redonda o alargada que puede ser de color amarillo, verde, rojo o lila. En general es muy nutritiva y rica en vitaminas, destacando la vitamina C. Según su contenido en agua es más o menos jugosa. Las ciruelas pasas o deshidratadas se conservan más tiempo y son muy dulces.
+
+En el mercado hay otros productos elaborados con ciruela como son mermeladas, zumos y licores.
+		
+	</div>
+	<div data-role="footer" class="pieFD">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+
+  <div data-role="page" id="higo" class="FD">
+	<div data-role="header" class="tituloFD">
+		<h1>Higo</h1>
+	</div>
+     <div id="imagenes">
+    <img class="frutas" src="imagenes/higo.jpg">
+    </div>
+	<div data-role="content">	
+		El higo se considera un falso fruto, es un receptáculo que contiene cientos de pequenos frutos que vulgarmente llamamos pepitas. Se utiliza como fruta para consumo en fresco, desecado, como puré para confiterías, en conserva o confitados.	
+	</div>
+	<div data-role="footer" class="pieFD">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+
+  <div data-role="page" id="kaki" class="FD">
+	<div data-role="header" class="tituloFD">
+		<h1>Kaki</h1>
+	</div>
+     <div id="imagenes">
+    <img class="frutas" src="imagenes/kaki.jpg">
+    </div>
+	<div data-role="content">	
+		El fruto es una baya, con el cáliz persistente, y que puede ser astringente (por la presencia de tanino) y entonces se da una maduración completa en el árbol, o bien no astringentes y de maduración completa después de la cosecha. Tiene la particularidad de que no se puede consumir en el momento de la recolección, ya que necesita un proceso de sobremaduración debido a su aspereza, por lo que se suele tratar antes untándolo con alguna clase de bebida alcohólica fuerte, como el conac, el aguardiente o la cazalla.		
+	</div>
+	<div data-role="footer" class="pieFD">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+
+  <div data-role="page" id="manzana" class="FD">
+	<div data-role="header" class="tituloFD">
+		<h1>Manzana</h1>
+	</div>
+     <div id="imagenes">
+    <img class="frutas" src="imagenes/manzana.jpg">
+    </div>
+	<div data-role="content">	
+		La manzana es el fruto ideal para tomar a cualquier hora y participa positivamente en la consecución del equilibrio alimentario. La piel puede ser de color verde, amarilla o rojiza, y la carne va desde un sabor agrio hasta el dulce.
+
+Es uno de los frutos más consumidos en el mundo. La gran cantidad de variedades existentes hacen que se encuentren al alcance del consumidor durante todo el ano.
+	
+	</div>
+	<div data-role="footer" class="pieFD">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+
+  <div data-role="page" id="melocoton" class="FD">
+	<div data-role="header" class="tituloFD">
+		<h1>Melocoton</h1>
+	</div>
+     <div id="imagenes">
+    <img class="frutas" src="imagenes/melocoton.jpg">
+    </div>
+	<div data-role="content">	
+		El melocotón es un fruto redondo, coloreado, jugoso y típicamente veraniego.
+Su producción se extiende a lo largo de los países por lo que podemos disponer de este fruto a lo largo de todo el ano.
+
+Usado para consumo en fresco y, para la industria, especialmente enlatado.
+		
+	</div>
+	<div data-role="footer" class="pieFD">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+
+  <div data-role="page" id="nectarina" class="FD">
+	<div data-role="header" class="tituloFD">
+		<h1>Nectarina</h1>
+	</div>
+     <div id="imagenes">
+    <img class="frutas" src="imagenes/nectarina.jpg">
+    </div>
+	<div data-role="content">	
+		la nectarina es un fruto redondo, con carne jugosa, con hueso, parecido al melocotón. Su piel no es vellosa sino lisa como la de la ciruela y se puede consumir sin pelar o pelado. La época de recolección de la nectarina es durante el mes de mayo en el Hemisferio Norte, aunque se puede encontrar en los mercados durante todo al ano ya que se cultiva en muchos países del mundo.		
+	</div>
+	<div data-role="footer" class="pieFD">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+
+  <div data-role="page" id="nispero" class="FD">
+	<div data-role="header" class="tituloFD">
+		<h1>nispero</h1>
+	</div>
+     <div id="imagenes">
+    <img class="frutas" src="imagenes/nispero.jpg">
+    </div>
+	<div data-role="content">	
+		El níspero es una fruta amarilla que nace en racimos, con un sabor dulce pero ácido en el fondo. También se le llama ciruela japonesa y se cultiva en muchos lugares del mundo. No solo tiene un sabor delicioso y refrescante, sino que además contiene una alta cantidad de vitaminas y minerales, importantes para el cuerpo.		
+	</div>
+	<div data-role="footer" class="pieFD">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+
+  <div data-role="page" id="pera" class="FD">
+	<div data-role="header" class="tituloFD">
+		<h1>Pera</h1>
+	</div>
+     <div id="imagenes">
+    <img class="frutas" src="imagenes/pera.jpg">
+    </div>
+	<div data-role="content">	
+	La pera es un fruto muy extendido hoy en día por todo el mundo, que se consume tanto en fresco como cocinada, y que está disponible durante todo el ano.
+
+Existen numerosas variedades cultivadas, que varían tanto en forma como en tamano y colores.
+		
+	</div>
+	<div data-role="footer" class="pieFD">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+
+  <div data-role="page" id="uva" class="FD">
+	<div data-role="header" class="tituloexo">
+		<h1>Uva</h1>
+	</div>
+     <div id="imagenes">
+    <img class="frutas" src="imagenes/uva.jpg">
+    </div>
+	<div data-role="content">	
+		La uva es un fruta que crece en racimos apretados. Su pulpa es blanca o púrpura y de sabor dulce. Se consume como fruta fresca o zumo, aunque su utilidad principal es la obtención de vinos. También se realizan conservas con ella. Contiene diversos minerales y vitaminas, y se piensa que tiene poderes antioxidantes y anticancerígenos.		
+	</div>
+	<div data-role="footer" class="pieFD">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="page7" class="FS">
+	<div data-role="header" class="tituloFS" >
+		<h1>Frutos secos</h1>
+	</div>
+	<div data-role="content">	
+			<ul data-role="listview">
+			<li><a href="#almendra">Almendra</a></li>
+            <li><a href="#avellana">Avellana</a></li>
+			<li><a href="#cacahuate">Cacahuate</a></li>
+            <li><a href="#castana">Castana</a></li>
+            <li><a href="#nuez">Nuez</a></li>
+            <li><a href="#pacana">Pacana</a></li>
+            <li><a href="#pistacho">Pistacho</a></li>
+             
+		</ul>		
+	</div>
+	<div data-role="footer" class="pieFS">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="almendra" class="FS">
+	<div data-role="header" class="tituloFS">
+		<h1>almendra</h1>
+	</div>
+     <div id="imagenes">
+    <img class="frutas" src="imagenes/almendra.png">
+    </div>
+	<div data-role="content">	
+La almendra es la semilla comestible del fruto del almendro dulce, de color blanco brillante envuelta con una cubierta marrón rojiza.
+
+Se consume como fruto seco, frito y/o salado y también se elaboran productos tan conocidos como el turrón y el mazapán.		
+	</div>
+	<div data-role="footer" class="pieFS">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="avellana" class="FS">
+	<div data-role="header" class="tituloFS">
+		<h1>Avellana</h1>
+	</div>
+     <div id="imagenes">
+    <img class="frutas" src="imagenes/avellana.jpg">
+    </div>
+	<div data-role="content">	
+Las avellanas son uno de los frutos secos más deliciosos que existen, son muy sencillas de incorporar en todo tipo de comidas, ya sean dulces o saladas. Incluso por sí solas son deliciosas. Una de sus aplicaciones más extendidas es junto al chocolate, ya sea en crema o como ingrediente para bombones.	
+	</div>
+	<div data-role="footer" class="pieFS">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="cacahuate" class="FS">
+	<div data-role="header" class="tituloFS">
+		<h1>Cacahuate</h1>
+	</div>
+     <div id="imagenes">
+    <img class="frutas" src="imagenes/descarga.jpg">
+    </div>
+	<div data-role="content">	
+Los beneficios del cacahuate son muchos, por eso es muy importante tener en cuenta su consumo regular. Este alimento se puede consumir entero o tostado, siendo en ambos casos un gran beneficio para la salud.	
+	</div>
+	<div data-role="footer" class="pieFS">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="castana" class="FS">
+	<div data-role="header" class="tituloFS">
+		<h1>Castana</h1>
+	</div>
+     <div id="imagenes">
+    <img class="frutas" src="imagenes/castana.jpg">
+    </div>
+	<div data-role="content">	
+•	Alto contenido en hidratos de carbono, proteínas y fibra.
+•	Bajo contenido calórico (en torno a 190 Kcalorías/100 gr.).
+•	Alto contenido en minerales: magnesio, potasio, hierro y fósforo.
+•	Propiedades vasculares reconstituyentes y antiinflamatorias.
+El otono es una buena época para disfrutarlas, sobretodo porque puedes ir al campo en companía de tu familia, pareja o amigos, armarte con una bolsa y un palo de madera y pasar un día inolvidable buscando castanas en las jornadas más hermosas de esta bella época del ano.
+
+	</div>
+	<div data-role="footer" class="pieFS">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="nuez" class="FS">
+	<div data-role="header" class="tituloFS">
+		<h1>Nuez</h1>
+	</div>
+     <div id="imagenes">
+    <img class="frutas" src="imagenes/nuez.jpg">
+    </div>
+	<div data-role="content">	
+Se ha demostrado que las nueces mejoran la salud ósea y contribuyen a reducir el impacto de algunas enfermedades neurológicas.
+También alimentan el cerebro con nutrientes que contribuyen a que las conexiones neuronales sean más eficaces. Su alto contenido en grasas saludables es el responsable de estos beneficios.
+	</div>
+	<div data-role="footer" class="pieFS">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+<div data-role="page" id="pacana" class="FS">
+	<div data-role="header" class="tituloFS">
+		<h1>Pacana</h1>
+	</div>
+     <div id="imagenes">
+    <img class="frutas" src="imagenes/unnamed (33).jpg">
+    </div>
+	<div data-role="content">	
+Como te indicábamos en las líneas anteriores, las nueces pecanas son originarias de Norteamérica, lugar de donde suelen provenir (aunque en la actualidad también podemos encontrarlas en otras partes del mundo.
+Destacan por tener una apariencia bastante parecidas a las nueces comunes, pero poseen unaapariencia algo más alargada, además de que su cáscara es lisa (como no ocurre con las más comunes).
+Como ocurre igualmente con las nueces, sorprende su alto contenido en ácidos grasos saludables(sobretodo en ácidos grasos monoinsaturados), lo que significa que son frutos secos ideales a la hora de bajar el colesterol alto (en especial el colesterol LDL), así como los triglicéridos.
+
+	</div>
+	<div data-role="footer" class="pieFS">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="pistacho" class="FS">
+	<div data-role="header" class="tituloFS">
+		<h1>Pistacho</h1>
+	</div>
+     <div id="imagenes">
+    <img class="frutas" src="imagenes/pistache.jpg">
+    </div>
+	<div data-role="content">	
+Como bien sabemos, las personas con un nivel de colesterol, lípidos y lipopotreínas elevado tienen riesgo de sufrir problemas al corazón. El pistacho, por sus altos niveles de luteína, beta-caroteno y gamma-tocoferol (responsables de la vitamina A y E) respecto a otros frutos secos, aumenta el nivel de antioxidantes en sangre.
+
+	</div>
+	<div data-role="footer" class="pieFS">
+		<h4>Pie de página</h4>
+	</div>
+</div>
+
+</body>
+</html>
